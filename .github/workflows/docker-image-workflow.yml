@@ -10,4 +10,4 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v3
         with:
-          repository: 'https://github.com/kevins0004/jenkins-python-application.git'
+          repository: https://github.com/kevins0004/jenkins-python-application.git
