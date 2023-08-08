@@ -11,3 +11,13 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: https://github.com/kevins0004/jenkins-python-application.git
+
+      - name: Build
+        run:
+          echo: "Docker build"
+      - name: Tag Docker Image 
+        run:
+          echo: "Tag Docker Image"
+      - name: Docker push iamge
+        run:
+          echo: "Docker push image"
